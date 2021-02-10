@@ -8,7 +8,7 @@
       >
         <el-button slot="append" icon="el-icon-search"></el-button>
       </el-input>
-      <el-button type="primary">新增</el-button>
+      <el-button type="primary">新增fff</el-button>
     </div>
     <div style="padding: 10px; height: calc(100% - 80px)" v-loading="loading">
       <!-- <div slot="empty" style="height: 100%; display: flex; justify-content: center; align-items: center">暂无数据</div> -->
