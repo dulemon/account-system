@@ -6,21 +6,21 @@ module.exports = {
     // 跨域
     proxy: {
       '/user': {
-        target: 'http://accounts.free.idcfengye.com',
+        target: 'http://localhost:8888',
         changeOrigin: true,
         // pathRewrite:{
         //     '^/api':''
         //   }
       },
       '/bill': {
-        target: 'http://accounts.free.idcfengye.com',
+        target: 'http://localhost:8888',
         changeOrigin: true,
         // pathRewrite:{
         //     '^/api':''
         //   }
       },
       '/consumptionType': {
-        target: 'http://accounts.free.idcfengye.com',
+        target: 'http://localhost:8888',
         changeOrigin: true,
         pathRewrite: {
           '^/api': '',
